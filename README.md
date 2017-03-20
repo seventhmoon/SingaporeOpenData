@@ -1,5 +1,9 @@
 # SingaporeOpenData
 
+[![Build Status](https://travis-ci.org/seventhmoon/SingaporeOpenData.svg?branch=master)](https://travis-ci.org/seventhmoon/SingaporeOpenData)
+[![](https://jitpack.io/v/seventhmoon/SingaporeOpenData.svg)](https://jitpack.io/#seventhmoon/SingaporeOpenData)
+
+
 ## Quick Start
 
     private void loadData(){
