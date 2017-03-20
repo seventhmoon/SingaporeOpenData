@@ -13,7 +13,7 @@ import java.util.List;
 @Keep
 public class Item {
 
-    @SerializedName("update_timestamp")
+    @SerializedName("imestamp")
     private Date timestamp;
 
     @SerializedName("update_timestamp")
