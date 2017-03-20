@@ -7,10 +7,13 @@ import com.google.gson.annotations.SerializedName;
 /**
  * Created by fung on 3/18/2017.
  */
+@SuppressWarnings("unused")
 @Keep
 public class Region {
     @SerializedName("name")
     private String name;
+    @SerializedName("label_location")
+    private Location labelLocation;
 
     public String getName() {
         return name;
@@ -27,7 +30,4 @@ public class Region {
     public void setLabelLocation(Location labelLocation) {
         this.labelLocation = labelLocation;
     }
-
-    @SerializedName("label_location")
-    private Location labelLocation;
 }

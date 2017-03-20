@@ -5,11 +5,11 @@ import android.support.annotation.Keep;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.Date;
-import java.util.List;
 
 /**
  * Created by fung on 3/18/2017.
  */
+@SuppressWarnings("unused")
 @Keep
 public class Item {
 

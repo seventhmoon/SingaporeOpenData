@@ -11,6 +11,7 @@ import sg.gov.data.GovDataApiService;
 /**
  * Created by fung on 3/4/2017.
  */
+@SuppressWarnings("WeakerAccess")
 @Keep
 public class ApiServices {
 

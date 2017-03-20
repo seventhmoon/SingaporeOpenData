@@ -7,8 +7,12 @@ import com.google.gson.annotations.SerializedName;
 /**
  * Created by fung on 3/18/2017.
  */
+@SuppressWarnings("unused")
 @Keep
 public class Readings {
+
+    @SerializedName("pm25_one_hourly")
+    private Reading pm25OneHourly;
 
     public Reading getPm25OneHourly() {
         return pm25OneHourly;
@@ -17,7 +21,4 @@ public class Readings {
     public void setPm25OneHourly(Reading pm25OneHourly) {
         this.pm25OneHourly = pm25OneHourly;
     }
-
-    @SerializedName("pm25_one_hourly")
-    private Reading pm25OneHourly;
 }

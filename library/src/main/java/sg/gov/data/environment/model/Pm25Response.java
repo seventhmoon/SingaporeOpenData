@@ -9,6 +9,7 @@ import java.util.List;
 /**
  * Created by fung on 3/18/2017.
  */
+@SuppressWarnings("unused")
 @Keep
 public class Pm25Response {
 

@@ -7,6 +7,7 @@ import com.google.gson.annotations.SerializedName;
 /**
  * Created by fung on 3/18/2017.
  */
+@SuppressWarnings("unused")
 @Keep
 public class ApiInfo {
 

@@ -5,6 +5,7 @@ import android.support.annotation.Keep;
 /**
  * Created by fung on 3/18/2017.
  */
+@SuppressWarnings("unused")
 @Keep
 public class Reading {
 
