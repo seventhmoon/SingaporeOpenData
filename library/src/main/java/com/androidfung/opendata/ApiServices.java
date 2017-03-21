@@ -2,6 +2,7 @@ package com.androidfung.opendata;
 
 
 import android.support.annotation.Keep;
+import android.support.annotation.NonNull;
 
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
@@ -18,7 +19,7 @@ public class ApiServices {
     private static final String DATA_API_BASE_URL = "https://api.data.gov.sg/v1/";
 
 
-    public static GovDataApiService getGovDataApiService(OkHttpClient okHttpClient) {
+    public static GovDataApiService getGovDataApiService(@NonNull OkHttpClient okHttpClient) {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(DATA_API_BASE_URL)
                 .client(okHttpClient)
